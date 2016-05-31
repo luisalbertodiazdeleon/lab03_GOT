@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		48B5C1741CFE3C7900B1D048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C1731CFE3C7900B1D048 /* main.m */; };
 		48B5C1771CFE3C7900B1D048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C1761CFE3C7900B1D048 /* AppDelegate.m */; };
-		48B5C17A1CFE3C7900B1D048 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C1791CFE3C7900B1D048 /* ViewController.m */; };
+		48B5C17A1CFE3C7900B1D048 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C1791CFE3C7900B1D048 /* Start.m */; };
 		48B5C17D1CFE3C7900B1D048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C17B1CFE3C7900B1D048 /* Main.storyboard */; };
 		48B5C1801CFE3C7900B1D048 /* Lab03_GOT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C17E1CFE3C7900B1D048 /* Lab03_GOT.xcdatamodeld */; };
 		48B5C1821CFE3C7900B1D048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1811CFE3C7900B1D048 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		48B5C1731CFE3C7900B1D048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48B5C1751CFE3C7900B1D048 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48B5C1761CFE3C7900B1D048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48B5C1781CFE3C7900B1D048 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48B5C1791CFE3C7900B1D048 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48B5C1781CFE3C7900B1D048 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		48B5C1791CFE3C7900B1D048 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		48B5C17C1CFE3C7900B1D048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48B5C17F1CFE3C7900B1D048 /* Lab03_GOT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab03_GOT.xcdatamodel; sourceTree = "<group>"; };
 		48B5C1811CFE3C7900B1D048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		48B5C1711CFE3C7900B1D048 /* Lab03_GOT */ = {
 			isa = PBXGroup;
 			children = (
-				48B5C1751CFE3C7900B1D048 /* AppDelegate.h */,
-				48B5C1761CFE3C7900B1D048 /* AppDelegate.m */,
-				48B5C1781CFE3C7900B1D048 /* ViewController.h */,
-				48B5C1791CFE3C7900B1D048 /* ViewController.m */,
+				48B5C18D1CFE3EEF00B1D048 /* controllers */,
+				48B5C18C1CFE3EDE00B1D048 /* main */,
 				48B5C17B1CFE3C7900B1D048 /* Main.storyboard */,
 				48B5C1811CFE3C7900B1D048 /* Assets.xcassets */,
 				48B5C1831CFE3C7900B1D048 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				48B5C1731CFE3C7900B1D048 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48B5C18C1CFE3EDE00B1D048 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				48B5C1761CFE3C7900B1D048 /* AppDelegate.m */,
+				48B5C1751CFE3C7900B1D048 /* AppDelegate.h */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		48B5C18D1CFE3EEF00B1D048 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48B5C1791CFE3C7900B1D048 /* Start.m */,
+				48B5C1781CFE3C7900B1D048 /* Start.h */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48B5C17A1CFE3C7900B1D048 /* ViewController.m in Sources */,
+				48B5C17A1CFE3C7900B1D048 /* Start.m in Sources */,
 				48B5C1801CFE3C7900B1D048 /* Lab03_GOT.xcdatamodeld in Sources */,
 				48B5C1771CFE3C7900B1D048 /* AppDelegate.m in Sources */,
 				48B5C1741CFE3C7900B1D048 /* main.m in Sources */,
