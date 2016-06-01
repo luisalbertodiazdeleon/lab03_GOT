@@ -10,6 +10,8 @@
 
 @interface Start : UIViewController
 
+- (IBAction)Live1:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *Live1_Info;
 
 @end
 

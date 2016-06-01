@@ -24,4 +24,62 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Live1:(UIButton *)sender {
+    //NSLog(@"Done");
+    self.Live1_Info.backgroundColor = [UIColor redColor];
+}
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
