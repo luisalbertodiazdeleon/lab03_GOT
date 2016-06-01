@@ -13,6 +13,8 @@
 
 - (IBAction)Live1:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *Live1_Info;
+- (IBAction)Dead1:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *Dead1_Info;
 
 @end
 

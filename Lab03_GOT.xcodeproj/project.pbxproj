@@ -25,6 +25,12 @@
 		48B5C1A21CFE53E900B1D048 /* TyrionLannister_L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1971CFE53E900B1D048 /* TyrionLannister_L.jpg */; };
 		48B5C1A31CFE53E900B1D048 /* TywinLannister_D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1981CFE53E900B1D048 /* TywinLannister_D.jpg */; };
 		48B5C1A41CFE53E900B1D048 /* Ygritte_D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1991CFE53E900B1D048 /* Ygritte_D.jpg */; };
+		48B5C1FA1CFE9F6A00B1D048 /* answer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1F41CFE9F6A00B1D048 /* answer.jpg */; };
+		48B5C1FB1CFE9F6A00B1D048 /* bueno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1F51CFE9F6A00B1D048 /* bueno.jpg */; };
+		48B5C1FC1CFE9F6A00B1D048 /* mal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1F61CFE9F6A00B1D048 /* mal.jpg */; };
+		48B5C1FD1CFE9F6A00B1D048 /* malo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1F71CFE9F6A00B1D048 /* malo.jpg */; };
+		48B5C1FE1CFE9F6A00B1D048 /* nutro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1F81CFE9F6A00B1D048 /* nutro.jpg */; };
+		48B5C1FF1CFE9F6A00B1D048 /* ok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1F91CFE9F6A00B1D048 /* ok.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,12 @@
 		48B5C1971CFE53E900B1D048 /* TyrionLannister_L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TyrionLannister_L.jpg; sourceTree = "<group>"; };
 		48B5C1981CFE53E900B1D048 /* TywinLannister_D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TywinLannister_D.jpg; sourceTree = "<group>"; };
 		48B5C1991CFE53E900B1D048 /* Ygritte_D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ygritte_D.jpg; sourceTree = "<group>"; };
+		48B5C1F41CFE9F6A00B1D048 /* answer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = answer.jpg; sourceTree = "<group>"; };
+		48B5C1F51CFE9F6A00B1D048 /* bueno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bueno.jpg; sourceTree = "<group>"; };
+		48B5C1F61CFE9F6A00B1D048 /* mal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mal.jpg; sourceTree = "<group>"; };
+		48B5C1F71CFE9F6A00B1D048 /* malo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = malo.jpg; sourceTree = "<group>"; };
+		48B5C1F81CFE9F6A00B1D048 /* nutro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nutro.jpg; sourceTree = "<group>"; };
+		48B5C1F91CFE9F6A00B1D048 /* ok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ok.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 		48B5C1711CFE3C7900B1D048 /* Lab03_GOT */ = {
 			isa = PBXGroup;
 			children = (
+				48B5C1F31CFE9F6A00B1D048 /* imagenes */,
 				48B5C18E1CFE53E900B1D048 /* GOT_Images */,
 				48B5C18D1CFE3EEF00B1D048 /* controllers */,
 				48B5C18C1CFE3EDE00B1D048 /* main */,
@@ -137,6 +150,19 @@
 				48B5C1991CFE53E900B1D048 /* Ygritte_D.jpg */,
 			);
 			path = GOT_Images;
+			sourceTree = "<group>";
+		};
+		48B5C1F31CFE9F6A00B1D048 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				48B5C1F41CFE9F6A00B1D048 /* answer.jpg */,
+				48B5C1F51CFE9F6A00B1D048 /* bueno.jpg */,
+				48B5C1F61CFE9F6A00B1D048 /* mal.jpg */,
+				48B5C1F71CFE9F6A00B1D048 /* malo.jpg */,
+				48B5C1F81CFE9F6A00B1D048 /* nutro.jpg */,
+				48B5C1F91CFE9F6A00B1D048 /* ok.jpg */,
+			);
+			path = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +222,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B5C1FE1CFE9F6A00B1D048 /* nutro.jpg in Resources */,
 				48B5C1851CFE3C7900B1D048 /* LaunchScreen.storyboard in Resources */,
+				48B5C1FB1CFE9F6A00B1D048 /* bueno.jpg in Resources */,
+				48B5C1FA1CFE9F6A00B1D048 /* answer.jpg in Resources */,
 				48B5C19E1CFE53E900B1D048 /* Game-of-thrones-logo.jpg in Resources */,
+				48B5C1FD1CFE9F6A00B1D048 /* malo.jpg in Resources */,
+				48B5C1FC1CFE9F6A00B1D048 /* mal.jpg in Resources */,
 				48B5C1821CFE3C7900B1D048 /* Assets.xcassets in Resources */,
 				48B5C1A01CFE53E900B1D048 /* PrinceJoffrey_D.jpg in Resources */,
 				48B5C19B1CFE53E900B1D048 /* DaenerysTargaryen_L.jpg in Resources */,
@@ -206,6 +237,7 @@
 				48B5C1A11CFE53E900B1D048 /* QueenCersei_L.jpg in Resources */,
 				48B5C1A21CFE53E900B1D048 /* TyrionLannister_L.jpg in Resources */,
 				48B5C1A31CFE53E900B1D048 /* TywinLannister_D.jpg in Resources */,
+				48B5C1FF1CFE9F6A00B1D048 /* ok.jpg in Resources */,
 				48B5C19D1CFE53E900B1D048 /* EddardStark_D.jpg in Resources */,
 				48B5C19C1CFE53E900B1D048 /* Drogo_D.jpg in Resources */,
 				48B5C19A1CFE53E900B1D048 /* AryaStark_L.jpg in Resources */,
@@ -370,6 +402,7 @@
 				48B5C18B1CFE3C7900B1D048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

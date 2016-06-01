@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.scrolly setScrollEnabled:YES];
-    [self.scrolly setContentSize:CGSizeMake(320,800)];
+    [self.scrolly setContentSize:CGSizeMake(320,3000)];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -29,6 +29,10 @@
 - (IBAction)Live1:(UIButton *)sender {
     //NSLog(@"Done");
     self.Live1_Info.backgroundColor = [UIColor redColor];
+}
+
+- (IBAction)Dead1:(UIButton *)sender {
+    self.Dead1_Info.backgroundColor = [UIColor redColor];
 }
 @end
 
