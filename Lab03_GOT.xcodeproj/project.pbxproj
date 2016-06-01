@@ -14,6 +14,17 @@
 		48B5C1801CFE3C7900B1D048 /* Lab03_GOT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C17E1CFE3C7900B1D048 /* Lab03_GOT.xcdatamodeld */; };
 		48B5C1821CFE3C7900B1D048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1811CFE3C7900B1D048 /* Assets.xcassets */; };
 		48B5C1851CFE3C7900B1D048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1831CFE3C7900B1D048 /* LaunchScreen.storyboard */; };
+		48B5C19A1CFE53E900B1D048 /* AryaStark_L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C18F1CFE53E900B1D048 /* AryaStark_L.jpg */; };
+		48B5C19B1CFE53E900B1D048 /* DaenerysTargaryen_L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1901CFE53E900B1D048 /* DaenerysTargaryen_L.jpg */; };
+		48B5C19C1CFE53E900B1D048 /* Drogo_D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1911CFE53E900B1D048 /* Drogo_D.jpg */; };
+		48B5C19D1CFE53E900B1D048 /* EddardStark_D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1921CFE53E900B1D048 /* EddardStark_D.jpg */; };
+		48B5C19E1CFE53E900B1D048 /* Game-of-thrones-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1931CFE53E900B1D048 /* Game-of-thrones-logo.jpg */; };
+		48B5C19F1CFE53E900B1D048 /* jonSnow_L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1941CFE53E900B1D048 /* jonSnow_L.jpg */; };
+		48B5C1A01CFE53E900B1D048 /* PrinceJoffrey_D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1951CFE53E900B1D048 /* PrinceJoffrey_D.jpg */; };
+		48B5C1A11CFE53E900B1D048 /* QueenCersei_L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1961CFE53E900B1D048 /* QueenCersei_L.jpg */; };
+		48B5C1A21CFE53E900B1D048 /* TyrionLannister_L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1971CFE53E900B1D048 /* TyrionLannister_L.jpg */; };
+		48B5C1A31CFE53E900B1D048 /* TywinLannister_D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1981CFE53E900B1D048 /* TywinLannister_D.jpg */; };
+		48B5C1A41CFE53E900B1D048 /* Ygritte_D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B5C1991CFE53E900B1D048 /* Ygritte_D.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +39,17 @@
 		48B5C1811CFE3C7900B1D048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48B5C1841CFE3C7900B1D048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48B5C1861CFE3C7900B1D048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B5C18F1CFE53E900B1D048 /* AryaStark_L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AryaStark_L.jpg; sourceTree = "<group>"; };
+		48B5C1901CFE53E900B1D048 /* DaenerysTargaryen_L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DaenerysTargaryen_L.jpg; sourceTree = "<group>"; };
+		48B5C1911CFE53E900B1D048 /* Drogo_D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drogo_D.jpg; sourceTree = "<group>"; };
+		48B5C1921CFE53E900B1D048 /* EddardStark_D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EddardStark_D.jpg; sourceTree = "<group>"; };
+		48B5C1931CFE53E900B1D048 /* Game-of-thrones-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Game-of-thrones-logo.jpg"; sourceTree = "<group>"; };
+		48B5C1941CFE53E900B1D048 /* jonSnow_L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jonSnow_L.jpg; sourceTree = "<group>"; };
+		48B5C1951CFE53E900B1D048 /* PrinceJoffrey_D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PrinceJoffrey_D.jpg; sourceTree = "<group>"; };
+		48B5C1961CFE53E900B1D048 /* QueenCersei_L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QueenCersei_L.jpg; sourceTree = "<group>"; };
+		48B5C1971CFE53E900B1D048 /* TyrionLannister_L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TyrionLannister_L.jpg; sourceTree = "<group>"; };
+		48B5C1981CFE53E900B1D048 /* TywinLannister_D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TywinLannister_D.jpg; sourceTree = "<group>"; };
+		48B5C1991CFE53E900B1D048 /* Ygritte_D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ygritte_D.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 		48B5C1711CFE3C7900B1D048 /* Lab03_GOT */ = {
 			isa = PBXGroup;
 			children = (
+				48B5C18E1CFE53E900B1D048 /* GOT_Images */,
 				48B5C18D1CFE3EEF00B1D048 /* controllers */,
 				48B5C18C1CFE3EDE00B1D048 /* main */,
 				48B5C17B1CFE3C7900B1D048 /* Main.storyboard */,
@@ -96,6 +119,24 @@
 				48B5C1781CFE3C7900B1D048 /* Start.h */,
 			);
 			name = controllers;
+			sourceTree = "<group>";
+		};
+		48B5C18E1CFE53E900B1D048 /* GOT_Images */ = {
+			isa = PBXGroup;
+			children = (
+				48B5C18F1CFE53E900B1D048 /* AryaStark_L.jpg */,
+				48B5C1901CFE53E900B1D048 /* DaenerysTargaryen_L.jpg */,
+				48B5C1911CFE53E900B1D048 /* Drogo_D.jpg */,
+				48B5C1921CFE53E900B1D048 /* EddardStark_D.jpg */,
+				48B5C1931CFE53E900B1D048 /* Game-of-thrones-logo.jpg */,
+				48B5C1941CFE53E900B1D048 /* jonSnow_L.jpg */,
+				48B5C1951CFE53E900B1D048 /* PrinceJoffrey_D.jpg */,
+				48B5C1961CFE53E900B1D048 /* QueenCersei_L.jpg */,
+				48B5C1971CFE53E900B1D048 /* TyrionLannister_L.jpg */,
+				48B5C1981CFE53E900B1D048 /* TywinLannister_D.jpg */,
+				48B5C1991CFE53E900B1D048 /* Ygritte_D.jpg */,
+			);
+			path = GOT_Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +197,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				48B5C1851CFE3C7900B1D048 /* LaunchScreen.storyboard in Resources */,
+				48B5C19E1CFE53E900B1D048 /* Game-of-thrones-logo.jpg in Resources */,
 				48B5C1821CFE3C7900B1D048 /* Assets.xcassets in Resources */,
+				48B5C1A01CFE53E900B1D048 /* PrinceJoffrey_D.jpg in Resources */,
+				48B5C19B1CFE53E900B1D048 /* DaenerysTargaryen_L.jpg in Resources */,
+				48B5C19F1CFE53E900B1D048 /* jonSnow_L.jpg in Resources */,
 				48B5C17D1CFE3C7900B1D048 /* Main.storyboard in Resources */,
+				48B5C1A11CFE53E900B1D048 /* QueenCersei_L.jpg in Resources */,
+				48B5C1A21CFE53E900B1D048 /* TyrionLannister_L.jpg in Resources */,
+				48B5C1A31CFE53E900B1D048 /* TywinLannister_D.jpg in Resources */,
+				48B5C19D1CFE53E900B1D048 /* EddardStark_D.jpg in Resources */,
+				48B5C19C1CFE53E900B1D048 /* Drogo_D.jpg in Resources */,
+				48B5C19A1CFE53E900B1D048 /* AryaStark_L.jpg in Resources */,
+				48B5C1A41CFE53E900B1D048 /* Ygritte_D.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
