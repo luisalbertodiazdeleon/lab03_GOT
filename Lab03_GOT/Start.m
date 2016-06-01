@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.scrolly setScrollEnabled:YES];
+    [self.scrolly setContentSize:CGSizeMake(320,800)];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

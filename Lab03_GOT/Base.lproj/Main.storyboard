@@ -13,17 +13,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="zm4-ZB-wrN">
+                            <scrollView clipsSubviews="YES" contentMode="scaleToFill" id="zm4-ZB-wrN">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="wyp-KF-HtE">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game-of-thrones-logo.jpg" id="p1P-Au-21f">
                                                 <rect key="frame" x="52" y="20" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AryaStark_L.jpg" id="d4K-Fj-bcr">
@@ -62,11 +62,6 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.marksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DaenerysTargaryen_L.jpg" id="cYh-So-k9B">
-                                                <rect key="frame" x="20" y="300" width="150" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <animations/>
-                                            </imageView>
                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EddardStark_D.jpg" id="z9V-j4-kNt">
                                                 <rect key="frame" x="20" y="540" width="150" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -74,6 +69,11 @@
                                             </imageView>
                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Drogo_D.jpg" id="6MX-9R-oKu">
                                                 <rect key="frame" x="20" y="420" width="150" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DaenerysTargaryen_L.jpg" id="cYh-So-k9B">
+                                                <rect key="frame" x="20" y="300" width="150" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -92,11 +92,12 @@
                     <size key="freeformSize" width="320" height="800"/>
                     <connections>
                         <outlet property="Live1_Info" destination="zgO-fv-edK" id="54s-yH-h20"/>
+                        <outlet property="scrolly" destination="zm4-ZB-wrN" id="OJo-A0-DZu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130" y="364"/>
+            <point key="canvasLocation" x="-150" y="20"/>
         </scene>
     </scenes>
     <resources>

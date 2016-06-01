@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Start : UIViewController
+@property (weak, nonatomic) IBOutlet UIScrollView *scrolly;
 
 - (IBAction)Live1:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *Live1_Info;
