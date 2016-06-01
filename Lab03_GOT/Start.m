@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.scrolly setScrollEnabled:YES];
-    [self.scrolly setContentSize:CGSizeMake(320,3000)];
+    [self.scrolly setContentSize:CGSizeMake(320,2500)];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -29,10 +29,14 @@
 - (IBAction)Live1:(UIButton *)sender {
     //NSLog(@"Done");
     self.Live1_Info.backgroundColor = [UIColor redColor];
+    self.answer1.image = [UIImage imageNamed:@"ok.jpg"];
+    self.Dead1_Info.enabled = FALSE;
 }
 
 - (IBAction)Dead1:(UIButton *)sender {
     self.Dead1_Info.backgroundColor = [UIColor redColor];
+    self.answer1.image = [UIImage imageNamed:@"mal.jpg"];
+    self.Live1_Info.enabled = FALSE;
 }
 @end
 

@@ -16,5 +16,6 @@
 - (IBAction)Dead1:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *Dead1_Info;
 
+@property (weak, nonatomic) IBOutlet UIImageView *answer1;
 @end
 
