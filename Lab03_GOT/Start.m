@@ -7,6 +7,7 @@
 //
 
 #import "Start.h"
+#import "TargetViewController.h"
 
 @interface Start ()
 
@@ -142,9 +143,19 @@ static int cont = 0;
 }
 - (IBAction)next:(UIButton *)sender {
     
-    NSLog(@"Done %d",cont);
-    
+    //NSLog(@"Done %d",cont);
+    //NSInteger numero = 5;
+    //NSLog(@"%@",results);
 }
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSString *results = [NSString stringWithFormat:@"SCORE: %d/10", cont];
+    TargetViewController *tvc;
+    tvc = [segue destinationViewController];
+    tvc.strScore = results;
+    tvc.intScore = &cont;
+}
+
 @end
 
 

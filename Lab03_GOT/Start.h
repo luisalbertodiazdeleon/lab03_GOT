@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface Start : UIViewController
 @property (weak, nonatomic) IBOutlet UIScrollView *scrolly;
 
@@ -74,7 +75,6 @@
 
 
 - (IBAction)next:(UIButton *)sender;
-
 
 
 @end

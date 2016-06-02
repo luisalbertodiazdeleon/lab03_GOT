@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485162BD1CFFB52E0060B545 /* TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485162BC1CFFB52E0060B545 /* TargetViewController.m */; };
 		48B5C1741CFE3C7900B1D048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C1731CFE3C7900B1D048 /* main.m */; };
 		48B5C1771CFE3C7900B1D048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C1761CFE3C7900B1D048 /* AppDelegate.m */; };
 		48B5C17A1CFE3C7900B1D048 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5C1791CFE3C7900B1D048 /* Start.m */; };
@@ -34,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		485162BB1CFFB52E0060B545 /* TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetViewController.h; sourceTree = "<group>"; };
+		485162BC1CFFB52E0060B545 /* TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetViewController.m; sourceTree = "<group>"; };
 		48B5C16F1CFE3C7900B1D048 /* Lab03_GOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab03_GOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B5C1731CFE3C7900B1D048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48B5C1751CFE3C7900B1D048 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 		48B5C18D1CFE3EEF00B1D048 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				485162BB1CFFB52E0060B545 /* TargetViewController.h */,
+				485162BC1CFFB52E0060B545 /* TargetViewController.m */,
 				48B5C1791CFE3C7900B1D048 /* Start.m */,
 				48B5C1781CFE3C7900B1D048 /* Start.h */,
 			);
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485162BD1CFFB52E0060B545 /* TargetViewController.m in Sources */,
 				48B5C17A1CFE3C7900B1D048 /* Start.m in Sources */,
 				48B5C1801CFE3C7900B1D048 /* Lab03_GOT.xcdatamodeld in Sources */,
 				48B5C1771CFE3C7900B1D048 /* AppDelegate.m in Sources */,
